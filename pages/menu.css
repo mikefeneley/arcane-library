@@ -1,0 +1,13 @@
+
+body {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background-color: #191c1f;
+    color: #afbccc; 
+    font-family:monospace;
+}
+a:active,a:hover{
+    color:#bcaeda;text-decoration:none
+    }
+a:visited{color:#8d849f}
