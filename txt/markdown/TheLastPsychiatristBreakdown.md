@@ -1,0 +1,45 @@
+**The Last Psychiatrist Breakdown**
+<hr>
+
+The Last Psychiatrist made a serious impact on my life. I found TLP the same way as many others. It was linked on cracked.com by the David Wong article ‘6 Harsh Truths That Will Make You A Better Person’. I decided to click on it and read what he had to say. After reading that first article, I fell down the rabbit hole and devoured everything that had ever been posted on the blog at that point.
+
+The writing is clever and the ideas unique. I don’t always agree with the points, but I am always entertained.
+
+The one critique I have is that the point of the writing is not always clear. Still, I think everyone should read at least a few articles on the blog. It changed my life in a small, but significant way. Now I want to help people get started with the writing by writing an outline of the blog.
+
+The blog is roughly sorted by category, but I think that a better job can be done at sorting the posts by topic. I am going to try and put the better posts at the top of each category and write a brief description of what I think the themes of the articles are.
+
+The blog covers a variety of topics from psychiatry and pharmacology to money and stock picking. I am not an expert on any of the topics of the blog, but I am going to do the best job I can conveying what I think the important parts are and what the reader should take away to improve their lives after reading each post.
+
+Just a note, I am apolitical. I don’t endorse any of TLP’s opinions, but I do think a lot of them deserve to be heard.
+
+**TLP Politics and Economics**
+
+**TLP How To Live Pages**
+
+**TLP Law Pages**
+
+**TLP Psychiatry Pages**
+
+**TLP Media Pages**
+
+**TLP Feminism Pages**
+
+http://thelastpsychiatrist.com/2011/07/jezebel_proves_scott_adams_is.html
+            
+Jezebel is not interested in changing the world, it just wants more clicks. They can get away with insulting Scott Adams and strawmanning his arguments because the point of the article is not to refute Scott Adams, but to reinforce the identity of their readers.
+
+Meanwhile, Scott Adam is arguing what he wants to be true. If he was really the man he wants to be, it should be easy for him to attract women. So to compensate for his self perceived shortcomings, he creates an ‘other’ that prevents him from doing this.
+
+Takeaway: Stop lying to yourself. Don’t build your identity off of movies and magazines. Be content with who you are. Stop consuming media. Always. Stop Consuming Media! Including this website.    
+
+**TLP Narcissism Pages**
+
+http://thelastpsychiatrist.com/2011/07/when_a_culture_is_this_investe_1.html
+
+The article in review tries describes who is and is not a narcissist. But using the article to identify faults in others is a defense mechanism against finding faults in yourself. 
+
+You pick the people you allow into your life. If you are constantly attracted to narcissists who hurt you, the problem is not the narcissists, the problem is you. You pick people with flaws because unresolved problems in your own life leave you attracted to narcissists. 
+
+Takeaway: Stop lying to yourself. Be honest in self evaluation. Look for negative patterns in your life and take steps to fix them.
+

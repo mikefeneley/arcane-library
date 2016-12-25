@@ -6,3 +6,5 @@ all: $(HTML)
 $(HTML): %.html: %.md
 	markdown $< > $@
 
+clean:
+	rm *.html

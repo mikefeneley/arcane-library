@@ -16,12 +16,24 @@ A simplistic, text only web design requires more effort from the user to focus a
 
 **About the Site**
 
-<hr>
-
 The about tab links to the page you are currently reading.
 
 The majority of my content is hosted under essays. It contains everything I have written on a variety of subjects, but I try to focus on technology and security issues. The projects tab contains information about all the projects I have completed or am currently working on. This includes both technical and hobby related projects.
 
-The resources tab contains links and reviews of all tools and technologies that I find helpful. Anything useful that is not protected by copyright will be hosted on this site. For copyright protected works, I will link to external resources. My preference is to link to resources that have been archived in order to prevent link rot and digital decay, but that is not always possible. To combat digital decay, I make local backups of all resources linked to by this website. If any of the links are broken and you would like to access them, please send me an email. You can find my contact information in the contact page.
+The resources tab contains links and reviews of all tools and technologies that I find helpful. Anything useful that is not protected by copyright will be hosted on this site. For copyright protected works, I will link to external resources. My preference is to link to resources that have been archived in order to prevent link rot and digital decay, but that is not always possible. To combat digital decay, I make local backups of all resources linked to by this website. If any of the links are broken and you would like to access them, please send me an email. You can find my contact information in the contact page. 
 
-The contact page contains my email, github, and twitter account information.
+The contact page lists the easiest ways to get in contact with me.
+
+**Config and Workflow**
+<hr>
+
+Security, minimalism, resilience were the primary design constraints for this website. My first tool choice was the static site generator Cactus. Static sites have the advantage of security, speed, and simplicity over dynamic sites. What I lost by using a static site was the easy of use and flexibility that comes from using a CMS. 
+
+This was an easy decision to make. The speed advantage was not a huge concern as the hosted content is minimal enough to make the gains redundant. Security was a strong point in favor of static sites. Nothing of importance is being hosted here, but security is a process. It needs to be constantly practiced to develop the skill set and prevent complacency. 
+
+Finally, Static sites are human readable and have minimum bloat which makes the both easy to mirror and restore in case of failure. Both are key factors in making resilient websites.
+
+The pages are written in markdown. When I finish writing, I use Make to convert the markdown files to html and then copy them over to the page directory. After all the files have been transferred, Cactus automatically rebuilds the website from the new html files. Once the build is complete, Cactus can deploy the website to the production server. This whole process can be automated using script.
+
+ The website is hosted in an S3 bucket provided Amazon. I use a Route 53 as my DNS service, also provided by Amazon.
+
