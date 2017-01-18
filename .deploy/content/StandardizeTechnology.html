@@ -1,5 +1,5 @@
 <p><strong>Standardize Technology</strong>
-<br></p>
+<hr></p>
 
 <p>Welcome to the high stakes world of software politics and drama. The most important thing that has ever happened and will ever be. (Vim>Emacs) == True</p>
 
@@ -11,15 +11,30 @@
 
 <p>I think more man hours would be allocated to this task if certain agreed upon tools were chosen to be the standard for a particular task. For example, one tool I like is rsync which provides synchronization of files across multiple systems. In addition to rsync, there is synctoy, free file sync, synkron, unison, syncless, and jfilesync. If all the effort put into writing these tools went in to extending, debugging, and optimizing rsync, we would have a much better single tool with an agreed upon interface for using.</p>
 
-<p>I want to put together a list of tools/protocols/languages I think should become the accepted standards for a wide range of applications. To meet the criteria for consideration, it should be open source. Being extensible is a very useful quality because it reduces the chance that a new tool will need to be developed to replace the existing tool to improve its functionality and application range. Ideally, the software uses a permissive license. GPL is not ideal license because of restrictions on its use in commercial products. </p>
+<p>I want to put together a list of tools/protocols/languages I think should become the accepted standards for a wide range of applications. To meet the criteria for consideration, it should be open source. Being extensible is a very useful quality because it reduces the chance that a new tool will need to be developed to replace the existing tool to improve its functionality and application range. Ideally, the software uses a permissive license. GPL is not ideal license because of restrictions on its use in commercial products. For tools it is preferable if a command line version of the tool exists. GUIs are not inherently bad, but a GUI wrapped around a base CLI product is better than one which solely exists as a GUI. </p>
+
+<p>I also think that many of the tools in widespread use should be phased out. Instead of having Perl, PHP, and Python we should all agree to a single scripting language. All the time spent writing similar libraries for each language should instead be spent porting functionality from the other languages that may be missing in the agreed upon language. Ditto for low level hardware languages, operating systems, development tools etc.</p>
 
 <p>This is a brainstorm, so if you have a comment/suggestion, send me an email. The list WILL be biased towards things I like, but I am will try to go into the reasons why everything is on the list.</p>
+
+<p><strong>Operating Systems</strong></p>
+
+<ul>
+<li><p>Linux: Debian, ArchLinux, Gentoo</p></li>
+<li><p>Unix: OpenBSD, FreeBSD</p></li>
+</ul>
 
 <p><strong>Programming Languages</strong></p>
 
 <ul>
 <li><p>System Level Programming: C, C++</p></li>
 <li><p>Scripting Languages: Python</p></li>
+</ul>
+
+<p><strong>Software Libraries</strong></p>
+
+<ul>
+<li>C++: Boost, Standard Library </li>
 </ul>
 
 <p><strong>System Management</strong></p>
@@ -46,5 +61,14 @@
 <p><strong>Web</strong></p>
 
 <ul>
-<li>Web Server: Apache, Nginx</li>
+<li>Web Server: Apache, Nginx
+<strong>Analysis</strong></li>
 </ul>
+
+<p>Operating Systems:</p>
+
+<p>A tool has to be open source for it to become the accepted industry standard, so Windows and Mac OS are eliminated, leaving *nix operating systems. The objective here is to find a core component which can become the standard that everyone agrees to use and work to improve. Choosing a standard OS is a unique challenge because there is a core piece of architecture, the kernel, bundled with wide variety of tools and applications. Most likely no current distro in currently in existence comes bundled with the exact tool set that is proscribed as the standard by this document, so by default a new distro will need to be created explicitly for this purpose. The task is then picking an operating system kernel to become the standard and is compatible with all the other tools we wish to include.</p>
+
+<p>At this point in time, Linux has a larger market share than Unix on desktop, but still a very small market share overall, &lt; 3%. So prevailing desktop market share is not a significant factor in the decision as the vast majority of computers users are going to need to switch to a brand new operating system for this future to become reality. In the server market, Linux comes in first followed closely by Windows software products. BSD makes up a tiny, insignificant fraction. Given its dominance on servers, it makes sense to opt to use Linux as the standard computing kernel. </p>
+
+<p>I have to look into this, but my guess is that the best mobile os is a fork of android, although firefox os and tizen might be worth consideration. </p>

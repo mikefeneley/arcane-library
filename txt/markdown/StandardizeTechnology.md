@@ -49,10 +49,18 @@ This is a brainstorm, so if you have a comment/suggestion, send me an email. The
 
 - Layer 3 Encryption Libraries:  OpenSSL
 
-
 - Browser: firefox
 
 **Web**
 
 - Web Server: Apache, Nginx
+**Analysis**
+
+Operating Systems:
+
+A tool has to be open source for it to become the accepted industry standard, so Windows and Mac OS are eliminated, leaving *nix operating systems. The objective here is to find a core component which can become the standard that everyone agrees to use and work to improve. Choosing a standard OS is a unique challenge because there is a core piece of architecture, the kernel, bundled with wide variety of tools and applications. Most likely no current distro in currently in existence comes bundled with the exact tool set that is proscribed as the standard by this document, so by default a new distro will need to be created explicitly for this purpose. The task is then picking an operating system kernel to become the standard and is compatible with all the other tools we wish to include.
+
+At this point in time, Linux has a larger market share than Unix on desktop, but still a very small market share overall, < 3%. So prevailing desktop market share is not a significant factor in the decision as the vast majority of computers users are going to need to switch to a brand new operating system for this future to become reality. In the server market, Linux comes in first followed closely by Windows software products. BSD makes up a tiny, insignificant fraction. Given its dominance on servers, it makes sense to opt to use Linux as the standard computing kernel. 
+
+I have to look into this, but my guess is that the best mobile os is a fork of android, although firefox os and tizen might be worth consideration. 
 

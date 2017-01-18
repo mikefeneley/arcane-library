@@ -22,15 +22,12 @@
 
 <title>Arcane Library</title>
 
-<p><strong>Introduction</strong></p>
+<p><strong>Introduction</strong>
+<hr></p>
 
-<hr>
-
-<p>This is my personal website. I am a software engineer. My primary domain interests are systems engineering, information security, and artificial intelligence.</p>
+<p>This is my personal website. I am a software engineer. My primary domain interests are systems engineering, information security, and artificial intelligence. I am trying to improve my writing, but for now it looks like it was written by Patrick Bateman. We will get better. </p>
 
 <p><strong>About the Design</strong></p>
-
-<hr>
 
 <p>I embrace stoicism and minimalism as productive life philosophies. I enjoy retro computer technologies and the cyberpunk literary genre. The design of this website tries to express this.</p>
 
@@ -48,8 +45,7 @@
 
 <p>The contact page lists the easiest ways to get in contact with me.</p>
 
-<p><strong>Config and Workflow</strong>
-<hr></p>
+<p><strong>Config and Workflow</strong></p>
 
 <p>Security, minimalism, resilience were the primary design constraints for this website. My first tool choice was the static site generator Cactus. Static sites have the advantage of security, speed, and simplicity over dynamic sites. What I lost by using a static site was the easy of use and flexibility that comes from using a CMS. </p>
 
@@ -59,7 +55,13 @@
 
 <p>The pages are written in markdown. When I finish writing, I use Make to convert the markdown files to html and then copy them over to the page directory. After all the files have been transferred, Cactus automatically rebuilds the website from the new html files. Once the build is complete, Cactus can deploy the website to the production server. This whole process can be automated using script.</p>
 
-<p>The website is hosted in an S3 bucket provided Amazon. I use a Route 53 as my DNS service, also provided by Amazon.</p>
+<p>My initial editing tool is google docs. I is firefox as my browser to access google docs where I would write plain markdown files. When I had make changes, I download the new file as a plain text document and transfer it to my shared virtual machine folder. From there I use a makefile to generate html files using the markdown command. The makefile then transfers all of the html files to the source directory where cactus automatically rebuilds the website. Finally, from there I can use cactus to automatically deploy the newly built website using AWS key exchange. The website is hosted in an S3 bucket provided Amazon. I use a Route 53 as my DNS service, also provided by Amazon.</p>
+
+<p>I am looking for a more efficient way to edit. I could directly edit the files in the same folder as the makefile which would save the step of having to download and move the file over from google docs. But I find I am more efficient writing in google docs than a plain text editor because of the spell checking capabilities. A plugin for vim could possibly solve this issue. </p>
+
+<p><strong>Content Management</strong></p>
+
+<p>Everything here is just thinking out loud, an attempt to refine and explore ideas. I will frequently make changes and add to pages. Nothing here should be taken as my authoritative opinion on anything.</p>
 
 
 
