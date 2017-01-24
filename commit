@@ -1,0 +1,7 @@
+git add txt
+git add pages
+git add templates
+git add static
+git add .gitignore
+git add commit
+git commit -m "Generic backup message"
